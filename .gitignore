@@ -1,0 +1,31 @@
+# Database
+*.db
+*.sqlite3
+
+# User files
+user_files/
+
+# Environment
+*.env
+config_local.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
