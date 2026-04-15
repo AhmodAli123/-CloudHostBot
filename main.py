@@ -12,15 +12,16 @@ from datetime import datetime, timedelta
 from functools import wraps
 import asyncio
 
+# ✅ নতুন:
 from telegram import (
     Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, 
-    InlineKeyboardMarkup, InlineKeyboardButton, ChatAction, ParseMode
+    InlineKeyboardMarkup, InlineKeyboardButton, ParseMode
 )
+from telegram.constants import ChatAction
 from telegram.ext import (
     Application, CommandHandler, MessageHandler, CallbackQueryHandler,
     ContextTypes, ConversationHandler, filters
 )
-
 # ======================== IMPORTS ========================
 from config import (
     BOT_TOKEN, ADMIN_IDS, DB_PATH, USERS_FILES_DIR, PLANS,
