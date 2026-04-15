@@ -12,7 +12,6 @@ from datetime import datetime, timedelta
 from functools import wraps
 import asyncio
 
-# ✅ নতুন:
 from telegram import (
     Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, 
     InlineKeyboardMarkup, InlineKeyboardButton, ParseMode
@@ -22,14 +21,14 @@ from telegram.ext import (
     Application, CommandHandler, MessageHandler, CallbackQueryHandler,
     ContextTypes, ConversationHandler, filters
 )
-# ======================== IMPORTS ========================
+
+# ✅ এটি যথেষ্ট - কোনো sys.path ঝামেলা নেই!
 from config import (
     BOT_TOKEN, ADMIN_IDS, DB_PATH, USERS_FILES_DIR, PLANS,
     PAYMENT_ACCOUNTS, LOG_LEVEL, LOG_FORMAT
 )
 from file_manager import FileUploadHandler, ZipHandler, EnvFileHandler, ScriptExecutor
 from manual_payment_system import ManualPaymentProcessor, ManualPaymentConfig
-
 # ======================== LOGGING SETUP ========================
 logging.basicConfig(
     level=LOG_LEVEL,
