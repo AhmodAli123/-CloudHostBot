@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 
 # ======================== BOT CONFIGURATION ========================
-BOT_TOKEN = "8695141646:AAHiErFK31dIly6934d-ZkMCgf24IfBOwW0"  # @BotFather থেকে পান
+BOT_TOKEN = "8695141646:AAHc_su82P5bEPO9O4YsnjyI7b9EbwlTG3U"  # @BotFather থেকে পান
 ADMIN_IDS = [7165975728]  # আপনার টেলিগ্রাম ID (https://t.me/userinfobot দিয়ে পাবেন)
 
 # ======================== DATABASE CONFIGURATION ========================
