@@ -4,6 +4,7 @@
 """
 
 import os
+import os
 import sys
 import json
 import sqlite3
@@ -12,11 +13,17 @@ from datetime import datetime, timedelta
 from functools import wraps
 import asyncio
 
+try:
+    import psutil
+except ImportError:
+    psutil = None
+    
 from telegram import (
-    Update, ReplyKeyboardMarkup, ReplyKeyboardRemove, 
-    InlineKeyboardMarkup, InlineKeyboardButton, ParseMode
+    Update, ReplyKeyboardMarkup, ReplyKeyboardRemove,
+    InlineKeyboardMarkup, InlineKeyboardButton
 )
-from telegram.constants import ChatAction
+
+from telegram.constants import ChatAction, ParseMode
 from telegram.ext import (
     Application, CommandHandler, MessageHandler, CallbackQueryHandler,
     ContextTypes, ConversationHandler, filters
@@ -29,6 +36,7 @@ from config import (
 )
 from file_manager import FileUploadHandler, ZipHandler, EnvFileHandler, ScriptExecutor
 from manual_payment_system import ManualPaymentProcessor, ManualPaymentConfig
+
 # ======================== LOGGING SETUP ========================
 logging.basicConfig(
     level=LOG_LEVEL,
