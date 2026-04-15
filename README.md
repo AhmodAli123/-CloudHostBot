@@ -1,12 +1,21 @@
 🚀 ALL-IN-ONE CLOUD HOSTING BOT – Description
-এই প্রজেক্টটি একটি সম্পূর্ণ SaaS-level Telegram Cloud Hosting Platform, যেখানে ইউজাররা সরাসরি টেলিগ্রামের ভেতর থেকেই তাদের কোড আপলোড, রান, মনিটর এবং ম্যানেজ করতে পারবে।
-এটি এমনভাবে ডিজাইন করা হয়েছে যাতে একটি সাধারণ Telegram Bot-কে রূপান্তর করা যায় একটি full-featured cloud hosting panel-এ — যেখানে রয়েছে automation, security, scalability এবং premium-level control system। �
+
+এই প্রজেক্টটি একটি সম্পূর্ণ SaaS-level Telegram Cloud Hosting Platform,
+যেখানে ইউজাররা সরাসরি টেলিগ্রামের ভেতর থেকেই তাদের কোড আপলোড, রান, মনিটর এবং ম্যানেজ করতে পারবে।
+এটি এমনভাবে ডিজাইন করা হয়েছে যাতে একটি সাধারণ 
+Telegram Bot-কে রূপান্তর করা যায় একটি 
+full-featured cloud hosting panel-এ 
+— যেখানে রয়েছে automation, security, scalability
+এবং premium-level control system। �
 REFERENCE FEATURE LIST.txt
 ⚡ Core Features
 🔹 User System & Database
-Automatic user registration, activity tracking এবং powerful database system — যা ইউজারদের সম্পূর্ণ data management নিশ্চিত করে।
+Automatic user registration, activity tracking
+এবং powerful database system — যা ইউজারদের 
+সম্পূর্ণ data management নিশ্চিত করে।
 🔹 Subscription & Payment System
-Free vs Premium plan, auto-expiry, এবং automated payment integration (bKash / Nagad / Stripe) — fully monetizable system।
+Free vs Premium plan, auto-expiry, 
+এবং automated payment integration (bKash / Nagad / Stripe) — fully monetizable system।
 🔹 Advanced File Management
 Users তাদের .py, .js, .zip, .env ফাইল upload, edit, delete এবং manage করতে পারবে সরাসরি Telegram এর মধ্যেই।
 🔹 Secure Execution Environment
